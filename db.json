@@ -1,0 +1,24 @@
+{
+    "drugs": [
+        {
+            "id":1,
+            "name":"iburufen",
+            "price": 200,
+            "image": "/home/moringa/Development/code/code1/phase-1/project_1/assets/chlro.jpeg",
+            "maufacturer":"Beta Pharmaceuticals"
+        },
+        {
+            "id":2,
+            "name": "bascopan",
+            "price": 100,
+            "image":"/home/moringa/Development/code/code1/phase-1/project_1/assets/ubrufen.jpeg",
+            "manufacturer": "Johnson"
+        },
+        {
+            "id": 3,
+            "name": "p2",
+            "price": 200,
+            "manufacturer": "Newcastle"
+        }
+    ]
+}

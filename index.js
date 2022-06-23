@@ -1,12 +1,20 @@
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'd6a95ac611mshf86e355d5bd1843p1b10fdjsn42d2587a0e77',
-		'X-RapidAPI-Host': 'drug-info-and-price-history.p.rapidapi.com'
-	}
-};
+document.addEventListener('DOMContentLoaded', function(){
+    fetchDrugs();
+})
+function fetchDrugs(){
+const url = " http://localhost:3000/drugs";
+fetch(url)
+.then(response=>response.json())
+.then(data=>{data.forEach(drugsObj => {
+   //const drugName = document.getElementById('asset1');
+   const drugUl = document.getElementById('drug-list');
+   const listEl = document.createElement('li');
+   listEl.innerText = drugsObj.name;
+   drugUl.appendChild(listEl);
 
-fetch('https://drug-info-and-price-history.p.rapidapi.com/1/druginfo?drug=advil', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
+   //image.src = drugsObj.image;
+    console.log(drugsObj.name);
+})
+})
+}
+  
