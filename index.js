@@ -11,7 +11,15 @@ fetch(url)
    const listEl = document.createElement('li');
    listEl.innerText = drugsObj.name;
    drugUl.appendChild(listEl);
+   listEl.addEventListener('click', function(){
+      const drugImg = document.getElementById('img-src')
+      const drugPrice = document.getElementById('price')
+      const drugManufacturer = document.getElementById('manufacturer')
 
+      drugImg.src = drugsObj.image;
+      drugPrice.innerText = drugsObj.price;
+      drugManufacturer.innerText = drugsObj.manufacturer;
+   })
    //image.src = drugsObj.image;
     console.log(drugsObj.name);
 })
