@@ -23,3 +23,38 @@ span:first-of-type {
 span:last-of-type {
     margin-right: 10;
 }
+#asset1{
+    background-color: aqua;
+    align-items: flex-start;
+}
+#asset2{
+    background-color:aqua;
+    align-items: cente;
+}
+.asset{
+    background-color: aqua;
+    margin-top: 0px;
+}
+#middle{
+    margin-bottom: 0cm;
+}
+.footer{
+    background-color:blue;
+    padding: 70px 0;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+}
+.container li{
+    list-style: none;
+}
+.footer_col{
+    width: 25%;
+    padding: 0 25px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
