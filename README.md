@@ -21,6 +21,7 @@ Json server
 Node js
 
 ## Live Link
+https://winstonkiprop.github.io/dawa_now-app/
 
 ### Installation process
 clone the repository into your local machine.
