@@ -2,7 +2,7 @@
 ## Author
 <p> winstone kiprop</p>
 ### Project Description
-<p>A quote app that displays quotes using the fetch API and sisplays them using DOM. </p>
+<p>An app that displays drug's information ,prices and the manufacturer </p>
 <p>It also allows a user to generate a random quote and share it to their social media handles. </p>
 <p>
 ### Screenshot
