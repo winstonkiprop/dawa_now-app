@@ -1,25 +1,32 @@
 {
-    "drugs": [
-        {
-            "id":1,
-            "name":"paracetamol",
-            "price": 200,
-            "image": "assets/chlro.jpeg",
-            "manufacturer":"Beta Pharmaceuticals"
-        },
-        {
-            "id":2,
-            "name": "iburufen",
-            "price": 400,
-            "image":"assets/ubrufen.jpeg",
-            "manufacturer": "Johnson"
-        },
-        {
-            "id": 3,
-            "name": "cough syrup",
-            "image":"assets/syrup1.jpg",
-            "price": 300,
-            "manufacturer": "Newcastle"
-        }
-    ]
+  "drugs": [
+    {
+      "id": 1,
+      "name": "paracetamol",
+      "price": 200,
+      "image": "assets/chlro.jpeg",
+      "manufacturer": "Beta Pharmaceuticals"
+    },
+    {
+      "id": 2,
+      "name": "iburufen",
+      "price": 400,
+      "image": "assets/ubrufen.jpeg",
+      "manufacturer": "Johnson"
+    },
+    {
+      "id": 3,
+      "name": "cough syrup",
+      "image": "assets/syrup1.jpg",
+      "price": 300,
+      "manufacturer": "Newcastle"
+    },
+    {
+      "name": "metronidazole",
+      "price": "1200",
+      "image": "https://www.rockethealth.shop/wp-content/uploads/2020/12/Metronidazole-400mg-Axcel-Metronidazole-tablets-10s.jpg",
+      "manufacturer": "Kobil industries",
+      "id": 4
+    }
+  ]
 }

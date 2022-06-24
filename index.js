@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
     fetchDrugs();
+    addDrugs()
 })
 function fetchDrugs(){
 const url = " http://localhost:3000/drugs";
@@ -26,3 +27,29 @@ fetch(url)
 })
 }
   
+function addDrugs(){
+const form = document.getElementById('create-drug');
+form.addEventListener('submit', function(e){
+    e.preventDefault();
+    let name = document.getElementById('drug-name').value;
+    let price = document.getElementById('drug-price').value;
+    let image = document.getElementById('drug-image').value;
+    let manufacturer = document.getElementById('drug-manufacturer').value;
+
+    post = {name, price, image, manufacturer}
+
+    const configurationObject = {
+        method: 'POST',
+        headers: {
+            'Content-Type':'application/json',
+            'Accept' : 'application/json'
+        },
+        body: JSON.stringify(post),
+    }
+    fetch('http://localhost:3000/drugs', configurationObject)
+    .then(res=>res.json())
+    .then(results=>
+        console.log("new addition"))
+        e.target.reset()
+})
+}
