@@ -10,7 +10,7 @@
         {
             "id":2,
             "name": "iburufen",
-            "price": 100,
+            "price": 400,
             "image":"assets/ubrufen.jpeg",
             "manufacturer": "Johnson"
         },
@@ -18,7 +18,7 @@
             "id": 3,
             "name": "cough syrup",
             "image":"assets/syrup1.jpg",
-            "price": 200,
+            "price": 300,
             "manufacturer": "Newcastle"
         }
     ]

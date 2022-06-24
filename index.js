@@ -17,8 +17,8 @@ fetch(url)
       const drugManufacturer = document.getElementById('manufacturer')
 
       drugImg.src = drugsObj.image;
-      drugPrice.innerText = drugsObj.price;
-      drugManufacturer.innerText = drugsObj.manufacturer;
+      drugPrice.innerText = `Price: ${drugsObj.price}`;
+      drugManufacturer.innerText = `Manufacturer: ${drugsObj.manufacturer}`;
    })
    //image.src = drugsObj.image;
     console.log(drugsObj.name);
