@@ -14,7 +14,7 @@
 <p>CSS</p>
 <p>JavaScript</p>
 <p>Fetch API</p>
-<p>Bootstrap</p>
+
 
 ### Requirements
 Json server
