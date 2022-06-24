@@ -4,7 +4,7 @@
 ### Project Description
 <p>An app that displays drug's information ,prices and the manufacturer </p>
 <p>It also allows a user to see the packagicng of the drug </p>
-<p>
+<p>  the user gets to post drug name ,manufacturer and prices .especially useful for pharmacies and drug store </p>
 
 ### Screenshot
 <img src="/assets/Screenshot from 2022-06-24 18-12-58.png">
