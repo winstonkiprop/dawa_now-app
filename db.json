@@ -2,21 +2,21 @@
     "drugs": [
         {
             "id":1,
-            "name":"iburufen",
+            "name":"paracetamol",
             "price": 200,
             "image": "assets/chlro.jpeg",
             "manufacturer":"Beta Pharmaceuticals"
         },
         {
             "id":2,
-            "name": "bascopan",
+            "name": "iburufen",
             "price": 100,
             "image":"assets/ubrufen.jpeg",
             "manufacturer": "Johnson"
         },
         {
             "id": 3,
-            "name": "p2",
+            "name": "cough syrup",
             "image":"assets/syrup1.jpg",
             "price": 200,
             "manufacturer": "Newcastle"
